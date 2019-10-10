@@ -7,10 +7,20 @@ header h1{
 	font-size: 40px;
 }
 
-li{
+header a{
+	text-decoration: none;
+}
+
+header ul{
+	padding-left: 0;
+}
+
+header li{
 	float: left;
 	display: inline-block;
 	margin: 0 auto;
+	min-width: 100px;
+	width: 25%;
 }
 
 .clearfix:after{
@@ -19,6 +29,9 @@ li{
 	clear: both;
 }
 
+.container {
+	margin: 30px auto;
+}
 
 footer{
 }
