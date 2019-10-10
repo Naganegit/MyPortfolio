@@ -1,0 +1,12 @@
+@import url("main.css");
+
+
+.card{
+	float: left;
+	margin-right: 20px;
+}
+
+.card img{
+	width: 200px;
+	height: 200px;
+}
