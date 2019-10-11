@@ -60,8 +60,8 @@ header li a:hover{
 	color: #fff;
 }
 
-header #glo_nav li a:visited{
-	color: #fff;
+header li a, header li a:visited{
+	color: #20639B;
 }
 
 .clearfix:after{
