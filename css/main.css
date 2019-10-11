@@ -1,4 +1,4 @@
-header{
+header,footer{
 	text-align: center;
 }
 
@@ -7,8 +7,23 @@ header h1{
 	font-size: 40px;
 }
 
+header h1:hover, header li:hover{
+	background-color: #dfdfdf;
+	color: white;
+}
+
 header a{
+	display: block;
+	width: 100%;
 	text-decoration: none;
+}
+
+header a:visited{
+	color: inherit;
+}
+
+header a:hover{
+	color: white;
 }
 
 header ul{
@@ -30,6 +45,7 @@ header li{
 }
 
 .container {
+	width: 90%;
 	margin: 30px auto;
 }
 
