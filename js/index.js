@@ -1,8 +1,7 @@
+"use strict";
+
 $(function(){
-	const getRandomInt = function(i){
-		return Math.floor(Math.random() * Math. floor(i));
-	}
-	let sec01 = function(){
+	const sec01 = function(){
 		let img_position = "";
 		switch(getRandomInt(4)){
 			case 1 :
@@ -19,6 +18,10 @@ $(function(){
 		}
 		document.getElementById("sec01").style.backgroundPosition = img_position;
 	}
-	setInterval(sec01, 3000);
+	sec01();
+	setInterval(sec01, 6000);
 
+	for(let i = works.length - 1 ; i >= works.length - 3 ; i--){
+		$("#lst-works").append("<div class=\"card\"><a href=\"" + works[i][0] +".html\"><img src=\"" + works[i][1] + "\" alt=\"" + works[i][2] + "\"></a></div>");
+	}
 });
