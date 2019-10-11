@@ -1,30 +1,44 @@
 "use strict";
 
-// グロナビ
-const glo_nav = ["index", "about", "works", "contact"];
-
-// 作品一覧
-// [name, img, alt]
-const works = [
-	["test" ,"img/dummy.jpg" , "テスト"],
-	["test" ,"img/dummy.jpg" , "テスト"],
-	["test" ,"img/dummy.jpg" , "テスト"],
-	["test" ,"img/dummy.jpg" , "テスト"],
-	["test" ,"img/dummy.jpg" , "テスト"],
-	["test" ,"img/dummy.jpg" , "テスト"],
-	["test" ,"img/dummy.jpg" , "テスト"],
-	["test" ,"img/dummy.jpg" , "テスト"],
-	["test" ,"img/dummy.jpg" , "テスト"],
-	["test" ,"img/dummy.jpg" , "テスト"]
-];
-
 
 $( document ).ready( function(){
-	glo_nav.forEach(function( list ){
+	var navlists = glo_nav.forEach(function( list ){
 		$("#glo_nav").append("<li><a href=\"" + list + ".html\"> "+list.toUpperCase()+ "</a></li>");
 	});
-	$("#glo_nav li").width((100 / glo_nav.length )+ "%");
-	for(let i = 0; i < 3 ; i++){
-		$("#lst-works").append("<div class=\"card\"><a href=\"" + works[i][0] +".html\"><img src=\"" + works[i][1] + "\" alt=\"" + works[i][2] + "\"></a></div>");
+	navlists;
+	if( window.innerWidth > 769){
+		$("#glo_nav li").width((100 / glo_nav.length )+ "%");
+	}else{
+		$("#glo_nav").hide();
+		$("#sitename").mouseenter(
+			function(){
+				$("#glo_nav").show("slow");
+			}
+		);
+		$("#glo_nav").mouseleave(
+			function(){
+				$("#glo_nav").hide("fast");
+			}
+		);
 	}
+});
+
+
+$(function(){
+	const sitename = function(){
+		let h1_color = "";
+		switch(getRandomInt(3)){
+			case 1 :
+				h1_color = "#7b5050";
+				break;
+			case 2 :
+				h1_color = "#2b6d14";
+				break;
+			default:
+				h1_color = "#144f98";
+		}
+		document.getElementById("sitename").style.color = h1_color;
+
+	};
+	setInterval(sitename, 4000);
 });
