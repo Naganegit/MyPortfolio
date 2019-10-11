@@ -1,8 +1,17 @@
 # MyPortfolio
 
-## ƒfƒBƒŒƒNƒgƒŠ\¬
+## ãƒ‡ã‚£ãƒ¬ã‚¯ãƒˆãƒªæ§‹æˆ
 root/  
- „¥ css/  
- „¥ img/  
- „¤ js/  
-
+  - index.html  
+  - about.html  
+  - contact.html  
+  - works.html  
+ â”œ css/ 
+    - main.css
+    - index.css  
+ â”œ img/  
+ â”” js/  
+    - obj.js  
+    - main.js  
+    - index.js  
+   
