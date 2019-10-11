@@ -1,18 +1,35 @@
 @import url("main.css");
 
+#sec01{
+	height: 300px;
+	background-image: url("../img/top_img.jpg");
+	width: 100%;
+	transition-duration: 2s;
+}
 
 .card{
+	height: 30vw;
+	width: 30vw;
 	float: left;
 	margin: 0 10px 10px 10px;
+	text-align: center;
+
+}
+
+.card a:hover{
+	cursor: default;
 }
 
 .card img{
-	width: 200px;
-	height: 200px;
+	width: 90%;
+	height: 90%;
 	border-radius: 50%;
 	filter: grayscale(100%);
+	transition-duration: .5s;
 }
 
 .card img:hover{
+	width: 95%;
+	height: 95%;
 	filter: grayscale(0%);
 }

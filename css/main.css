@@ -1,13 +1,40 @@
+@import url('https://fonts.googleapis.com/css?family=Carter+One|Ultra&display=swap');
+
+*{
+	font-family: 'Carter One', cursive;
+	/*font-family: 'Ultra', serif;*/
+}
+
+body{
+	margin: 0;
+}
+
 header,footer{
 	text-align: center;
 }
 
 header h1{
+	background-color: #b4f4fb;
 	font-weight: normal;
-	font-size: 40px;
+	font-size: 60px;
+	margin: 0;
+	padding: 10px;
+	/*transition-duration: 3s;*/
 }
 
-header h1:hover, header li:hover{
+header h1:hover{
+	color: #fefefe;
+}
+
+header ul{
+	margin: 0;
+}
+
+header li{
+	border-radius: 5px;
+}
+
+header li:hover{
 	background-color: #dfdfdf;
 	color: white;
 }
@@ -16,13 +43,15 @@ header a{
 	display: block;
 	width: 100%;
 	text-decoration: none;
+	padding-top: 10px;
+	padding-bottom: 10px;
 }
 
 header a:visited{
 	color: inherit;
 }
 
-header a:hover{
+header li a:hover{
 	color: white;
 }
 
@@ -35,7 +64,7 @@ header li{
 	display: inline-block;
 	margin: 0 auto;
 	min-width: 100px;
-	width: 25%;
+	transition-duration: .5s;
 }
 
 .clearfix:after{
@@ -45,9 +74,20 @@ header li{
 }
 
 .container {
-	width: 90%;
-	margin: 30px auto;
+	width: 100%;
+}
+
+.container h2{
+	text-align: center;
+	padding-bottom: 20px;
 }
 
 footer{
+	padding: 10px 0;
+	position: fixed;
+	width: 100%;
+	bottom: 0;
+	z-index: 10000;
+	background-color: #123466;
+	color: #fff;
 }
