@@ -1,7 +1,7 @@
 "use strict";
 
 $(function(){
-	const sec01 = function(){
+	const top_img = function(){
 		let img_position = "";
 		switch(getRandomInt(4)){
 			case 1 :
@@ -16,14 +16,12 @@ $(function(){
 			default:
 				img_position = "left";
 		}
-		document.getElementById("sec01").style.backgroundPosition = img_position;
+		document.getElementById("top_img").style.backgroundPosition = img_position;
 	}
-	sec01();
-	setInterval(sec01, 6000);
+	top_img();
+	setInterval(top_img, 6000);
 
 	for(let i = works.length - 1 ; i >= works.length - 3 ; i--){
 		$("#lst-works").append("<div class=\"card\"><a href=\"works/" + works[i][0] +"/index.html\"><img src=\"" + works[i][1] + "\" alt=\"" + works[i][2] + "\"><span>" + works[i][3] + "</span></a></div>");
 	}
-
-
 });

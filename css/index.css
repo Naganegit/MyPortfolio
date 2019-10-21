@@ -1,6 +1,6 @@
 @import url("main.css");
 
-#sec01{
+#top_img{
 	height: 300px;
 	width: 100%;
 	transition-duration: 8s;
@@ -51,9 +51,17 @@
 }
 
 @media screen and (min-width: 590px) {
+	#sec01{
+		width: 90%;
+		margin: 0 auto;
+		height: 38vw;
+	}
+
 	.card{
-		height: 27vw;
-		width: 27vw;
+		height: 24vw;
+		max-height: 300px;
+		width: 24vw;
+		max-width: 300px;
 		float: left;
 		margin: 0 2.6vw;
 	}

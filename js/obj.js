@@ -4,7 +4,7 @@
 const glo_nav = ["index", "about", "works", "contact"];
 
 // 作品一覧
-// [name, img, alt, discription]
+// [url, img, alt, discription]
 const works = [
 	["sample1" ,"img/dummy.jpg" , "テスト1", "Sample text. Sample text. Sample text. Sample text. Sample text. Sample text."],
 	["sample2" ,"img/dummy.jpg" , "テスト2", "Sample text. Sample text. Sample text. Sample text. Sample text. Sample text."],
