@@ -22,7 +22,7 @@ $(function(){
 	setInterval(sec01, 6000);
 
 	for(let i = works.length - 1 ; i >= works.length - 3 ; i--){
-		$("#lst-works").append("<div class=\"card\"><a href=\"works/" + works[i][0] +".html\"><img src=\"" + works[i][1] + "\" alt=\"" + works[i][2] + "\"><span>" + works[i][3] + "</span></a></div>");
+		$("#lst-works").append("<div class=\"card\"><a href=\"works/" + works[i][0] +"/index.html\"><img src=\"" + works[i][1] + "\" alt=\"" + works[i][2] + "\"><span>" + works[i][3] + "</span></a></div>");
 	}
 
 
