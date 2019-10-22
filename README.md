@@ -1,22 +1,18 @@
 # MyPortfolio
 
 ##toDo
-Eobj.js
-works‚ÉŠúŠÔ‚ð“ü‚ê‚é
+ãƒ»obj.js
+worksã«æœŸé–“ã‚’å…¥ã‚Œã‚‹
 
-Eabout
-table‚ðì¬
-“ñŽŸŒ³”z—ñ
-rowspan ‘”/2 == 0 ? ‘”/2 : ‘”/2 + 1
+ãƒ»about
+tableã‚’ä½œæˆ
+äºŒæ¬¡å…ƒé…åˆ—
+rowspan ç·æ•°/2 == 0 ? ç·æ•°/2 : ç·æ•°/2 + 1
 
-Eƒ}[ƒNƒAƒbƒvH
-class markup‚Ìpƒ^ƒO‚Ì‰º‚É‚ ‚éƒeƒLƒXƒg‚ð1s‚¸‚Â”»’f‚µ‚Äo—Í‚·‚éH
-Å‰‚Ì1•¶Žš‚ðŒ©‚ÄA•t—^‚·‚éspan‚ÌƒNƒ‰ƒX‚ðŒˆ‚ß‚éB
-‚»‚Ì‚ ‚Æswitch‚©‚È‚ñ‚©‚Å‚Æ‚é‚â‚Â
 
 ###works
-EBootStrap
+ãƒ»BootStrap
 
-Ecookie
+ãƒ»cookie
 
-Etimer
+ãƒ»timer
